@@ -1,0 +1,8 @@
+Reference,Value,Have It?,Datasheet,Footprint,Qty,DNP
+"C1,C2",100n,104,~,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,2,
+"IN1,IN2,OUT1,OUT2,OUT3,OUT4,OUT5,OUT6",3.5mm_Mono_Switched_sm,Y,,PCM_4ms_Jack:EighthInch_PJ398SM,8,
+"J6,J7,J8,J10,J11,J12,J13,J14,J15,J16",Conn_01x01_Pin,Y,~,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,10,
+J9,Eurorack_Power_10pin_Unshrouded,Y but order more from Ali,,Library:IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped,1,
+"J17,J18,J19,J20,J21,J22,J23,J24,J25,J26",Conn_01x01_Socket,Y,~,Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical,10,
+"R1,R2,R3,R4,R5,R6,R7,R8",330,Y,~,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,8,
+"U1,U2",TL074,Y but order more from Ali,http://www.ti.com/lit/ds/symlink/tl071.pdf,Package_DIP:DIP-14_W7.62mm_Socket,2,
