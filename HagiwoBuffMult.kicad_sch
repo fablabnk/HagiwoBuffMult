@@ -633,142 +633,6 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
@@ -2134,12 +1998,6 @@
 		(uuid "25b30fd7-bd3e-4a44-a4f9-d7cfed9b5589")
 	)
 	(junction
-		(at 58.42 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "263ee011-0a91-4194-8adc-cf02faa138b8")
-	)
-	(junction
 		(at 95.25 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2258,18 +2116,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dab70b57-7977-4e9a-8a45-0ef79e123026")
-	)
-	(junction
-		(at 58.42 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6f2e0f5-c276-49f2-aa59-69b8a362bb94")
-	)
-	(junction
-		(at 58.42 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb8b8a83-ab97-40a9-9dad-e1d12ac0ad07")
 	)
 	(junction
 		(at 111.76 30.48)
@@ -2547,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 147.32) (xy 58.42 147.32)
+			(xy 48.26 147.32) (xy 64.77 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 154.94) (xy 58.42 154.94)
+			(xy 48.26 154.94) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 58.42 139.7)
+			(xy 48.26 139.7) (xy 64.77 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2734,16 +2580,6 @@
 			(type default)
 		)
 		(uuid "849bb351-2cb0-4297-ab46-7a804abffb5a")
-	)
-	(wire
-		(pts
-			(xy 58.42 147.32) (xy 64.77 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d402f3-c86e-4865-97f8-21e6afad6d78")
 	)
 	(wire
 		(pts
@@ -2857,16 +2693,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 154.94) (xy 64.77 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13f6a13-8748-44fe-9517-790d5cb4f512")
-	)
-	(wire
-		(pts
 			(xy 43.18 154.94) (xy 48.26 154.94)
 		)
 		(stroke
@@ -2944,16 +2770,6 @@
 			(type default)
 		)
 		(uuid "cbacc80f-c4c5-4ff4-917e-b1bc4e459443")
-	)
-	(wire
-		(pts
-			(xy 58.42 139.7) (xy 64.77 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc195289-c451-4ae6-8763-e85b1d11e740")
 	)
 	(wire
 		(pts
@@ -3366,7 +3182,7 @@
 			)
 		)
 	)
-	(global_label "IN1_PIN1_C"
+	(global_label "IN2_PIN1_C"
 		(shape input)
 		(at 71.12 77.47 180)
 		(fields_autoplaced yes)
@@ -4146,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00071d72-c6e2-47b3-a63f-1c6514df83bc")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 91.44 143.51 0)
 			(effects
 				(font
@@ -4196,7 +4012,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4420,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "046690af-db57-41d0-9bae-f9d0ef543447")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR01"
 			(at 60.96 139.7 0)
 			(effects
 				(font
@@ -4471,7 +4287,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c790e3-136b-42ac-8808-c051f0cfba8d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 60.96 154.94 0)
 			(effects
 				(font
@@ -4538,7 +4354,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b7db144-16db-4234-b95d-dac84eaee3e6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -4707,7 +4523,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4723,7 +4539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f05c2e9-1a9c-4844-986e-163a12a40cc1")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 90.17 73.66 90)
 			(effects
 				(font
@@ -4775,7 +4591,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4858,7 +4674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "119ffb03-d618-46b9-ad3f-8bc6247d4fed")
-		(property "Reference" "J6"
+		(property "Reference" "J20"
 			(at 255.27 72.39 0)
 			(effects
 				(font
@@ -4907,7 +4723,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J6")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4923,7 +4739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13520969-7abd-47e1-bfd3-47466409b5bc")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 115.57 40.64 90)
 			(effects
 				(font
@@ -4975,7 +4791,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5199,7 +5015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fb46e51-ce61-44ba-9ecf-724ad6c9351a")
-		(property "Reference" "OUT6"
+		(property "Reference" "J9"
 			(at 156.21 110.49 0)
 			(effects
 				(font
@@ -5207,7 +5023,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "OUT6"
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -5283,7 +5099,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "OUT6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2194f178-441a-48a0-ac0a-7fbf0a7d8409")
-		(property "Reference" "J20"
+		(property "Reference" "J13"
 			(at 209.55 82.5499 0)
 			(effects
 				(font
@@ -5416,7 +5232,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J20")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "222eade4-2289-4bb1-a22b-501e8d192679")
-		(property "Reference" "J17"
+		(property "Reference" "J10"
 			(at 209.55 72.3899 0)
 			(effects
 				(font
@@ -5482,7 +5298,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J17")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5568,7 +5384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ee393b5-7332-4817-a7b0-67ae410ed58a")
-		(property "Reference" "OUT2"
+		(property "Reference" "J5"
 			(at 156.21 41.91 0)
 			(effects
 				(font
@@ -5576,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "OUT2"
 			(at 156.21 44.45 0)
 			(effects
 				(font
@@ -5652,7 +5468,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "OUT2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6013,7 +5829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6c7a48-0ad4-4567-8e52-5b0da460143e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 80.01 151.13 0)
 			(effects
 				(font
@@ -6063,7 +5879,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6078,7 +5894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1ab8f2-5ed6-4cc4-88bc-308dd3b59751")
-		(property "Reference" "J25"
+		(property "Reference" "J18"
 			(at 209.55 102.8699 0)
 			(effects
 				(font
@@ -6129,7 +5945,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J25")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6145,7 +5961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e0ef6a4-e89a-4347-8a53-db74980135ab")
-		(property "Reference" "J7"
+		(property "Reference" "J21"
 			(at 255.27 74.93 0)
 			(effects
 				(font
@@ -6194,7 +6010,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J7")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -6210,7 +6026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c19368-e727-4bfa-855e-fd0e1f63faf6")
-		(property "Reference" "J12"
+		(property "Reference" "J25"
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -6259,7 +6075,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J12")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -6377,7 +6193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "702df928-ed37-4d88-9d18-009ca120fa12")
-		(property "Reference" "J19"
+		(property "Reference" "J12"
 			(at 209.55 80.0099 0)
 			(effects
 				(font
@@ -6428,7 +6244,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J19")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6444,7 +6260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "732f48f7-4934-47a8-a7f8-ccf5008fe256")
-		(property "Reference" "J8"
+		(property "Reference" "J22"
 			(at 255.27 80.01 0)
 			(effects
 				(font
@@ -6493,7 +6309,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J8")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -6508,7 +6324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bc51e1e-45a2-4d08-8347-60b704526a3d")
-		(property "Reference" "J22"
+		(property "Reference" "J15"
 			(at 209.55 90.1699 0)
 			(effects
 				(font
@@ -6559,7 +6375,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J22")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -6575,7 +6391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bec5943-5114-4d09-a12f-c3036b62fb64")
-		(property "Reference" "OUT4"
+		(property "Reference" "J7"
 			(at 156.21 77.47 0)
 			(effects
 				(font
@@ -6583,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "OUT4"
 			(at 156.21 80.01 0)
 			(effects
 				(font
@@ -6659,7 +6475,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "OUT4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6675,7 +6491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ddfcb49-2ddd-49e8-8320-709d9408077c")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 34.7233 135.89 0)
 			(effects
 				(font
@@ -6781,7 +6597,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6797,7 +6613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86182af4-5549-439a-9246-0d26ce39fc18")
-		(property "Reference" "J15"
+		(property "Reference" "J28"
 			(at 255.27 102.87 0)
 			(effects
 				(font
@@ -6846,7 +6662,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J15")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -6861,7 +6677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8db3a779-9d54-4e4c-a652-d0cad5c96953")
-		(property "Reference" "J18"
+		(property "Reference" "J11"
 			(at 209.55 74.9299 0)
 			(effects
 				(font
@@ -6912,77 +6728,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 58.42 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e819839-32d8-40f6-9792-efc8c5b447cb")
-		(property "Reference" "C4"
-			(at 62.23 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 62.23 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
-			(at 59.3852 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 58.42 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cc248ad-9d42-4d47-9f1d-ca1b2583b2d3")
-		)
-		(pin "2"
-			(uuid "3a59be3d-a53a-46ac-8b53-b9afa042eab7")
-		)
-		(instances
-			(project "HagiwoBuffMult"
-				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "C4")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6998,7 +6744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f85b0d4-9bc7-491b-a406-3cb0a7ab149f")
-		(property "Reference" "OUT5"
+		(property "Reference" "J8"
 			(at 156.21 93.98 0)
 			(effects
 				(font
@@ -7006,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "OUT5"
 			(at 156.21 96.52 0)
 			(effects
 				(font
@@ -7082,7 +6828,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "OUT5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7097,7 +6843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9285f8e7-7e56-467a-8ed4-fcaf49bcc20d")
-		(property "Reference" "J21"
+		(property "Reference" "J14"
 			(at 209.55 87.6299 0)
 			(effects
 				(font
@@ -7148,77 +6894,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 58.42 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97faa0e0-ae1c-4074-ab65-c8eca3239865")
-		(property "Reference" "C3"
-			(at 62.23 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 62.23 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
-			(at 59.3852 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 58.42 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ca1c32e-32de-4446-b4a9-c7093657387a")
-		)
-		(pin "2"
-			(uuid "621ff9f5-5cb1-44df-95ab-f1ef5062bdc4")
-		)
-		(instances
-			(project "HagiwoBuffMult"
-				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "C3")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7233,7 +6909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aba5400e-31b5-4f95-b59d-29a00201b6dc")
-		(property "Reference" "J23"
+		(property "Reference" "J16"
 			(at 209.55 95.2499 0)
 			(effects
 				(font
@@ -7284,7 +6960,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J23")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -7299,7 +6975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b33c0805-dd9e-4bc3-b0de-aff21282e101")
-		(property "Reference" "IN2"
+		(property "Reference" "J2"
 			(at 33.02 72.39 0)
 			(effects
 				(font
@@ -7307,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "IN2"
 			(at 33.02 74.93 0)
 			(effects
 				(font
@@ -7383,7 +7059,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "IN2")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7399,7 +7075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4db116c-98fd-44de-bb34-d9934b16e04a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 80.01 143.51 0)
 			(effects
 				(font
@@ -7449,7 +7125,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7465,7 +7141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8bf955f-25ae-45e9-8073-3ca2834faa5f")
-		(property "Reference" "J14"
+		(property "Reference" "J27"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -7514,7 +7190,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J14")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8474af2-6570-4461-8cb9-cd675cc7b756")
-		(property "Reference" "J26"
+		(property "Reference" "J19"
 			(at 209.55 105.4099 0)
 			(effects
 				(font
@@ -7751,7 +7427,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J26")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -7767,7 +7443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8f87659-a066-43a3-83ee-a4b098a9f825")
-		(property "Reference" "OUT1"
+		(property "Reference" "J4"
 			(at 156.21 25.4 0)
 			(effects
 				(font
@@ -7775,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "OUT1"
 			(at 156.21 27.94 0)
 			(effects
 				(font
@@ -7851,7 +7527,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "OUT1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7937,7 +7613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceed82e3-bcc5-442e-bae7-8a0e69e209a2")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 115.57 24.13 90)
 			(effects
 				(font
@@ -7989,7 +7665,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8004,7 +7680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0bae7a6-90ea-4839-ae0f-29a13b5a9b9c")
-		(property "Reference" "J24"
+		(property "Reference" "J17"
 			(at 209.55 97.7899 0)
 			(effects
 				(font
@@ -8055,7 +7731,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J24")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -8071,7 +7747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5332ecf-70ad-4311-b949-45ef61d1059d")
-		(property "Reference" "J11"
+		(property "Reference" "J24"
 			(at 255.27 87.63 0)
 			(effects
 				(font
@@ -8120,7 +7796,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J11")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -8204,7 +7880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7cf56c0-8428-49d7-b0c8-8d726968a403")
-		(property "Reference" "J16"
+		(property "Reference" "J29"
 			(at 255.27 105.41 0)
 			(effects
 				(font
@@ -8253,7 +7929,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J16")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -8269,7 +7945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df5d677b-a4ec-461c-8445-a47876799292")
-		(property "Reference" "J13"
+		(property "Reference" "J26"
 			(at 255.27 95.25 0)
 			(effects
 				(font
@@ -8318,7 +7994,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J13")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -8507,7 +8183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b3566b-ab04-4aa2-b9c9-0e07eaa4977a")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 115.57 57.15 90)
 			(effects
 				(font
@@ -8559,7 +8235,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8575,7 +8251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c951b1-ef95-4bd6-a52f-d04a177aed38")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR07"
 			(at 91.44 151.13 0)
 			(effects
 				(font
@@ -8625,7 +8301,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8641,7 +8317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e93ef387-7b29-4a9c-88e3-6feb7d45fdba")
-		(property "Reference" "OUT3"
+		(property "Reference" "J6"
 			(at 156.21 58.42 0)
 			(effects
 				(font
@@ -8649,7 +8325,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "OUT3"
 			(at 156.21 60.96 0)
 			(effects
 				(font
@@ -8725,7 +8401,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "OUT3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8740,7 +8416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4627b74-d4b6-4e10-b54b-3ab58f34978b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 71.12 147.32 0)
 			(effects
 				(font
@@ -8790,7 +8466,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8806,7 +8482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8886d1b-3bad-416d-83e1-5bfa0221b717")
-		(property "Reference" "J10"
+		(property "Reference" "J23"
 			(at 255.27 82.55 0)
 			(effects
 				(font
@@ -8855,7 +8531,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "J10")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -8870,7 +8546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa85f9d3-2661-4b8d-b965-adaf3db5534d")
-		(property "Reference" "IN1"
+		(property "Reference" "J1"
 			(at 33.02 20.32 0)
 			(effects
 				(font
@@ -8878,7 +8554,7 @@
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched_sm"
+		(property "Value" "IN1"
 			(at 33.02 22.86 0)
 			(effects
 				(font
@@ -8954,7 +8630,7 @@
 		(instances
 			(project "HagiwoBuffMult"
 				(path "/5ca46b0e-f7c4-4ddf-997f-252b11cfe41a"
-					(reference "IN1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
