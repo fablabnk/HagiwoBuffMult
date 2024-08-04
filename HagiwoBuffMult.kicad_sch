@@ -6507,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped"
+		(property "Footprint" "Library:IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped_ThickerText"
 			(at 39.37 157.48 0)
 			(effects
 				(font
