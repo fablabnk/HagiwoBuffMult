@@ -2931,27 +2931,6 @@
 		)
 		(uuid "9c0f15b4-0dc7-4187-819d-990e64191ce7")
 	)
-	(text "How does switched jack work? When not plugged then?"
-		(exclude_from_sim no)
-		(at 137.668 147.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7b702c2-c70a-4d1d-8aba-c2c800cee8e7")
-	)
-	(text "? x 2-pin sockets on front board\n? x 2-pin sockets on back board\n\n9 sockets total\n8 for tip of each jack, 1 for ground of all jacks"
-		(exclude_from_sim no)
-		(at 110.744 139.446 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ccdba729-8c3b-4194-a7f9-66d77868d36c")
-	)
 	(text "Front board"
 		(exclude_from_sim no)
 		(at 193.548 68.072 0)
@@ -4717,6 +4696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "P"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a748af6-b832-485d-9f01-dd2ee56e1ffd")
 		)
@@ -5226,6 +5214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7127f832-e2e2-48fc-8dde-cff779747d63")
 		)
@@ -5292,6 +5289,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "478ed91f-8528-47ef-9dd2-47c33db6fb0d")
 		)
@@ -5323,7 +5329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 52.07 143.8909 0)
 			(effects
 				(font
@@ -5332,7 +5338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 49.2252 147.32 0)
 			(effects
 				(font
@@ -5351,6 +5357,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 48.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "10uF▲"
 			(at 48.26 143.51 0)
 			(effects
 				(font
@@ -5939,6 +5954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90a70970-64f5-48d9-985e-205f65fd866f")
 		)
@@ -6004,6 +6028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "P"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d17a904e-de62-48be-97d0-14aa0ba82bff")
 		)
@@ -6061,6 +6094,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "P"
 			(at 257.81 90.17 0)
 			(effects
 				(font
@@ -6238,6 +6280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "326da553-f032-41a1-93ad-3b6f8bcf191f")
 		)
@@ -6295,6 +6346,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "P"
 			(at 257.81 80.01 0)
 			(effects
 				(font
@@ -6361,6 +6421,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "S"
 			(at 208.28 90.17 0)
 			(effects
 				(font
@@ -6656,6 +6725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "P"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bd4d62b-c9ee-4007-aa37-10a8eb3fb2b7")
 		)
@@ -6714,6 +6792,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "S"
 			(at 208.28 74.93 0)
 			(effects
 				(font
@@ -6888,6 +6975,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "995d9b5f-fa52-4e94-bf9c-f3b1d2cc1087")
 		)
@@ -6946,6 +7042,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "S"
 			(at 208.28 95.25 0)
 			(effects
 				(font
@@ -7176,6 +7281,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "P"
 			(at 257.81 97.79 0)
 			(effects
 				(font
@@ -7421,6 +7535,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84b3d386-165e-4f61-b874-9779a97d4229")
 		)
@@ -7552,7 +7675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 52.07 151.5109 0)
 			(effects
 				(font
@@ -7561,7 +7684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 49.2252 154.94 0)
 			(effects
 				(font
@@ -7580,6 +7703,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 48.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "10uF▲"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -7725,6 +7857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "S"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "374caf23-62ab-4f50-9783-881bc9cb88dc")
 		)
@@ -7782,6 +7923,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "P"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -7923,6 +8073,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "P"
+			(at 257.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "421c7f10-7501-434d-b6d4-2ba10caf39c5")
 		)
@@ -7980,6 +8139,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "P"
 			(at 257.81 95.25 0)
 			(effects
 				(font
@@ -8517,6 +8685,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "P"
 			(at 257.81 82.55 0)
 			(effects
 				(font

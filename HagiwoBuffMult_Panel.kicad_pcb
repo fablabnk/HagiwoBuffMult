@@ -42,8 +42,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0000020_7ffffffe)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -72,9 +72,9 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 2)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -646,7 +646,7 @@
 			(at 0.13 4.37 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3d964b7-ecd1-43e5-b91e-a5f1eda13633")
+			(uuid "094a2eab-86cd-4af8-abc7-c720f9a46590")
 			(effects
 				(font
 					(size 1 1)
@@ -658,7 +658,7 @@
 			(at 0.381 2.54 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "103aa474-8b45-481a-a849-a182e7493375")
+			(uuid "d14414a8-0d3e-4a79-ad9c-0e71454c9471")
 			(effects
 				(font
 					(size 1 1)
@@ -712,7 +712,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d029cdbc-baa6-41ad-aa5f-66b0f633ca92")
+			(uuid "6e8c1945-3f44-4be2-9001-b1606b279bf2")
 		)
 		(fp_arc
 			(start 0 1.5875)
@@ -723,7 +723,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8404d28f-f90c-4bdd-8f11-a7e4d1d536da")
+			(uuid "17c4acc3-080d-4084-97dc-a206ef1ea31d")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Hole_Jack_3.5mm"
