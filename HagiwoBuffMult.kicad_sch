@@ -5338,7 +5338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 49.2252 147.32 0)
 			(effects
 				(font
@@ -7684,7 +7684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 49.2252 154.94 0)
 			(effects
 				(font

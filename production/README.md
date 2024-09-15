@@ -1,2 +1,0 @@
-- bom and other files in root dir are for both boards combined
-- zip files of gerber files are separated for each board
