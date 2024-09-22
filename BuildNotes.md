@@ -5,7 +5,10 @@
 - solder in jacks before pin sockets
 
 ## Design issues to fix in V1.1
-- widen 10uf cap footprint (hand soldering is tight)
-- what to do about board edge clearance violations (trace to board outline should be 0.3mm but is 0.12mm in many cases)
+- DONE: thicker traces 30 mil power 20 mil signal
+- DONE: add 100nF caps
+- DONE: optimise layout to minimise routing up and down the board
+- DONE: widen 10uf cap footprint (hand soldering is tight)
+- IGNORED: board edge clearance violation warnings
 
 ## Component issues
